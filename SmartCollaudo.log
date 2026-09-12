@@ -1,0 +1,86 @@
+2026-04-30 16:06:09,043 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.0
+2026-04-30 16:06:47,321 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-04-30 16:06:48,730 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-04-30 16:06:54,311 - INFO - SmartCollaudo PRO - Estratte 188 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-04-30 16:06:55,829 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-04-30 16:06:57,837 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-04-30 16:06:58,124 - ERROR - SmartCollaudo PRO - Errore durante la generazione del report: No module named 'xlsxwriter'
+Traceback (most recent call last):
+  File "C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\SmartCollaudo_PRO_v0_1_0.py", line 608, in run
+    target = service.generate_report(
+        file_paths=self.file_paths,
+        save_path=self.save_path,
+        progress_callback=self.progress_changed.emit,
+    )
+  File "C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\SmartCollaudo_PRO_v0_1_0.py", line 554, in generate_report
+    ExcelExporter.save_report(report_df, str(target))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\SmartCollaudo_PRO_v0_1_0.py", line 452, in save_report
+    with pd.ExcelWriter(str(target), engine="xlsxwriter") as writer:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\martin_e\Documents\Python\Original_PY\.venv\Lib\site-packages\pandas\io\excel\_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2026-04-30 16:10:26,615 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.1
+2026-04-30 16:10:46,200 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-04-30 16:10:46,809 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-04-30 16:10:47,469 - INFO - SmartCollaudo PRO - Estratte 188 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-04-30 16:10:48,084 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-04-30 16:10:48,708 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-04-30 16:10:51,690 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-04-30 16:17:29,604 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.2
+2026-04-30 16:17:56,392 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-04-30 16:17:57,041 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-04-30 16:17:57,912 - INFO - SmartCollaudo PRO - Estratte 188 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-04-30 16:17:58,540 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-04-30 16:17:59,167 - INFO - SmartCollaudo PRO - Estratte 193 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-04-30 16:18:01,806 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-04-30 16:25:08,069 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.4
+2026-04-30 16:25:21,777 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-04-30 16:25:22,469 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-04-30 16:25:23,164 - INFO - SmartCollaudo PRO - Estratte 177 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-04-30 16:25:23,879 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-04-30 16:25:25,058 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-04-30 16:25:27,129 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 09:45:41,177 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.4
+2026-05-04 09:46:01,281 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 09:46:02,016 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 09:46:02,889 - INFO - SmartCollaudo PRO - Estratte 177 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 09:46:03,665 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 09:46:04,410 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 09:46:05,924 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 09:50:19,390 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.5
+2026-05-04 09:50:43,148 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 09:50:43,854 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 09:50:44,672 - INFO - SmartCollaudo PRO - Estratte 177 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 09:50:45,509 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 09:50:46,245 - INFO - SmartCollaudo PRO - Estratte 182 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 09:50:47,280 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 09:54:05,650 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.6
+2026-05-04 09:54:25,161 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 09:54:25,943 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 09:54:26,740 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 09:54:27,410 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 09:54:28,143 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 09:54:29,109 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 10:00:50,822 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.7
+2026-05-04 10:01:07,757 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 10:01:08,409 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 10:01:09,095 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 10:01:09,743 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 10:01:10,336 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 10:01:11,246 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 10:07:04,075 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.8
+2026-05-04 10:07:32,766 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 10:07:33,388 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 10:07:34,070 - INFO - SmartCollaudo PRO - Estratte 296 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 10:07:34,690 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 10:07:35,293 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 10:07:36,123 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx
+2026-05-04 10:12:29,680 - INFO - SmartCollaudo PRO - Avvio SmartCollaudo PRO v0.1.9
+2026-05-04 10:12:47,373 - INFO - SmartCollaudo PRO - Conversione ActiveX non disponibile: sistema=Windows, pywin32=False
+2026-05-04 10:12:47,999 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica.docx
+2026-05-04 10:12:48,652 - INFO - SmartCollaudo PRO - Estratte 296 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_2.docx
+2026-05-04 10:12:49,275 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_3.docx
+2026-05-04 10:12:49,933 - INFO - SmartCollaudo PRO - Estratte 295 righe da C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\NC300_Unica_4.docx
+2026-05-04 10:12:51,119 - INFO - SmartCollaudo PRO - Report Excel salvato in C:\Users\martin_e\Documents\Python\Original_PY\Scheda collaudo\Report_Collaudo.xlsx

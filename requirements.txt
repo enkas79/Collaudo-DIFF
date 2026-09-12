@@ -1,0 +1,7 @@
+pandas
+python-docx
+openpyxl
+PyQt6
+pywin32; platform_system == "Windows"
+pytest
+ruff

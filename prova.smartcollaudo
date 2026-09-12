@@ -1,0 +1,14 @@
+{
+  "file_paths": [
+    "C:\\Users\\martin_e\\PyCharmMiscProject\\Scheda collaudo\\Doc prova\\Genya.docx",
+    "C:\\Users\\martin_e\\PyCharmMiscProject\\Scheda collaudo\\Doc prova\\Genya_1.docx",
+    "C:\\Users\\martin_e\\PyCharmMiscProject\\Scheda collaudo\\Doc prova\\Genya_2.docx",
+    "C:\\Users\\martin_e\\PyCharmMiscProject\\Scheda collaudo\\Doc prova\\Genya_3.docx",
+    "C:\\Users\\martin_e\\PyCharmMiscProject\\Scheda collaudo\\Doc prova\\Genya_4.docx"
+  ],
+  "auto_open_report": false,
+  "show_preflight_message": true,
+  "created_with_version": "0.4.9",
+  "saved_at": "2026-06-11T13:45:43",
+  "schema": "smartcollaudo.project.v1"
+}
