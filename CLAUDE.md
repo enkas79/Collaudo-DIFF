@@ -16,7 +16,7 @@
 
 ## 3. Gestione Versioni, Release & Autoupdate
 * **File di Versione:** Il file `version.txt` situato nella root del progetto contiene il numero di versione corrente (es. `1.0.0`).
-* **Trigger di Build:** Ogni volta che si apportano modifiche, fix o nuove funzionalità ai file di codice, **aggiorna sempre il numero di versione in `version.txt`** (incrementando la versione patch o minor). Questo scatenerà automaticamente la build degli installer tramite il workflow `.github/workflows/build-installers.yml`.
+* **Trigger di Build:** Aggiorna `version.txt` (patch/minor) **solo a chiusura di una feature/fix completo e testato**, non ad ogni singolo edit — il bump scatena la build multi-piattaforma via `.github/workflows/build-installers.yml`, quindi va riservato a modifiche pronte per il rilascio.
 * **Sistema di Autoupdate:**
   * **Verifica Automatica all'Avvio:** L'applicazione deve verificare in background (tramite API GitHub Releases o endpoint dedicato) la presenza di nuove versioni confrontando la versione remota con quella locale in `version.txt`.
   * **Notifica e Download:** Se è disponibile una nuova release, mostrare un dialogo informativo (`QMessageBox` o dialogo custom con changelog) chiedendo all'utente se desidera aggiornare.
@@ -36,8 +36,7 @@
 ## 6. Regole Operative per l'Agente
 * **Lingua:** Rispondi e inserisci commenti nel codice sempre in **italiano**.
 * **Stile Risposte:** Sii sintetico e diretto. Vai subito al codice e ai comandi, evitando preamboli teorici o spiegazioni prolisse.
-* **Autonomia e Versionamento:** Ricordati di aggiornare `version.txt` a ogni modifica rilevante ai file di progetto per garantire che la release su GitHub venga generata correttamente.
-* **Gestione Git e Branch:** Una volta creato il branch e completate le modifiche, procedi direttamente al push/merge nel branch `main` in piena autonomia, senza richiedere conferme.
+* **Gestione Git e Branch:** Lavora sempre sul branch designato per il task; esegui il push su quel branch in autonomia. **Non** eseguire mai merge/push diretto su `main`: apri una PR e attendi revisione, salvo istruzione esplicita contraria.
 * **Pulizia Repo:** Non creare file spazzatura, note `.md` effimere o file di backup nel workspace a meno che non sia esplicitamente richiesto.
 
 ## 7. Integrazione Plugin & Skill Attive
